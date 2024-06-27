@@ -1,0 +1,56 @@
+.forfont{
+    font-weight: bold;
+   font-size: 70px;
+}
+.forflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+    justify-content: center;
+    
+   
+}
+
+.forbtn{
+    
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right:50px ;
+
+}
+.forbtn :hover{
+    background-color: rgb(8, 143, 8);
+}
+.forcardsize{
+    width: 600px;
+    border-right: 5px solid green;
+    border-radius: 20px;
+  
+}
+.forform{
+    
+   height: 100%;
+   width: 100%;
+    display: flex;
+  
+    align-items: center;
+    flex-direction: column;
+   
+}
+.forlogo{
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.formargin{
+    margin-left: 100px;
+}
+@media screen and (max-width:567px){
+    .formargin{
+        margin-left: 60px;
+    }
+
+}

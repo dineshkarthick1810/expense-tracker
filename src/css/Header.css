@@ -1,0 +1,37 @@
+.Logo{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.nav-item:hover{
+    text-decoration:underline;
+    text-decoration-color: green;
+    text-decoration-thickness: 3px;
+    
+
+}
+.navigation{
+    font-weight: bold;
+
+}
+.navigation:hover{
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-thickness:3px ;
+}
+.fornavigation-margin{
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+}
+@media screen and (max-width:1024px){
+    .fornavigation-margin{
+        position: relative;
+      margin-top: 46px;
+
+    }
+    .forlg-height{
+
+        height: 125px;
+    }
+}

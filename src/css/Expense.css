@@ -1,0 +1,41 @@
+.forincome-display{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    border-radius: 20px;
+}
+.forincome-display p{
+    font-weight: bold;
+    color: gray;
+    font-size: 23px;
+ 
+}
+.forbtn-income{
+    border-radius: 10px;
+}
+.forbtn-income button{
+    border-radius: 10px;
+
+}
+.form-control{
+    width: 340px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-top: 14px;
+    
+}
+.forcenter-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.forincome-aligments{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    margin-top: 40px;
+}

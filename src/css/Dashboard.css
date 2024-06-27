@@ -1,0 +1,54 @@
+.foraligning-firstcolomn {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.forincome-display {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.fordisplayIncome,
+.fordisplayExpense,
+.fordisplay-balance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+}
+
+.forHistory {
+    font-weight: bold;
+    color: grey;
+    font-size: 20px;
+}
+
+.foralign-recent {
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (max-width: 992px) {
+    .forincome-display {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .fordisplayIncome,
+    .fordisplayExpense {
+        margin-top: 70px;
+        width: 100%; 
+        max-width: 300px; 
+    }
+
+    .fordisplay-balance {
+        margin-top: 280px; 
+    }
+}
